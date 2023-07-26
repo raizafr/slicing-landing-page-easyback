@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button{
+    @apply bg-gradient-to-r hover:from-[#84E6A3] hover:to-[#7CD7E4] from-[#2BD462] to-[#2AB7D9] font-bold text-white px-8 py-2 rounded-3xl 
+}

@@ -31,14 +31,14 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <ul className="space-y-3 opacity-80">
+          <ul className="space-y-3 text-gray-500">
             <li>About Us</li>
             <li>Contact</li>
             <li>Blog</li>
           </ul>
         </div>
         <div className="mt-3 md:mt-0">
-          <ul className="space-y-3 opacity-80">
+          <ul className="space-y-3 text-gray-500">
             <li>Careers</li>
             <li>Support</li>
             <li>Privacy Policy</li>
@@ -50,7 +50,7 @@ const Footer = () => {
           <div className="flex justify-end">
             <button className="button">Request Invite</button>
           </div>
-          <p className="opacity-50 text-sm">@Easybank. All Right Reserved</p>
+          <p className="text-gray-500 text-sm">@Easybank. All Right Reserved</p>
         </div>
       </div>
     </footer>

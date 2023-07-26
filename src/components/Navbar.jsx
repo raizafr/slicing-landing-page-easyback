@@ -23,19 +23,19 @@ const Navbar = () => {
         </div>
         <div className="hidden lg:flex">
           <ul className="flex gap-5 font-semibold opacity-70">
-            <li className="cursor-pointer hover:opacity-100 opacity-70">
+            <li className="cursor-pointer hover:opacity-100 opacity-70 hover:border-b-2 border-[#2BD462]">
               <a href="#">Home</a>
             </li>
-            <li className="cursor-pointer hover:opacity-100 opacity-70">
+            <li className="cursor-pointer hover:opacity-100 opacity-70 hover:border-b-2 border-[#2BD462]">
               <a href="#">About</a>
             </li>
-            <li className="cursor-pointer hover:opacity-100 opacity-70">
+            <li className="cursor-pointer hover:opacity-100 opacity-70 hover:border-b-2 border-[#2BD462]">
               <a href="#">Contact</a>
             </li>
-            <li className="cursor-pointer hover:opacity-100 opacity-70">
+            <li className="cursor-pointer hover:opacity-100 opacity-70 hover:border-b-2 border-[#2BD462]">
               <a href="#">Blog</a>
             </li>
-            <li className="cursor-pointer hover:opacity-100 opacity-70">
+            <li className="cursor-pointer hover:opacity-100 opacity-70 hover:border-b-2 border-[#2BD462]">
               <a href="#">Careers</a>
             </li>
           </ul>
@@ -62,21 +62,46 @@ const Navbar = () => {
           isActiveNavbarMobile ? "opacity-100" : "opacity-0 -z-30"
         }`}
       >
-        <ul className="bg-white md:h-fit text-center space-y-3 font-semibold rounded-lg py-7 md:w-1/2 ">
+        <ul className="bg-white md:h-fit text-center space-y-3 font-semibold rounded-lg py-7 md:w-1/2">
           <li>
-            <a href="#">Home</a>
+            <a
+              href="#"
+              className="hover:border-b-2 border-[#2BD462] text-gray-500 hover:text-black"
+            >
+              Home
+            </a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a
+              href="#"
+              className="hover:border-b-2 border-[#2BD462] text-gray-500 hover:text-black"
+            >
+              About
+            </a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a
+              href="#"
+              className="hover:border-b-2 border-[#2BD462] text-gray-500 hover:text-black"
+            >
+              Contact
+            </a>
           </li>
           <li>
-            <a href="#">Blog</a>
+            <a
+              href="#"
+              className="hover:border-b-2 border-[#2BD462] text-gray-500 hover:text-black"
+            >
+              Blog
+            </a>
           </li>
           <li>
-            <a href="#">Careers</a>
+            <a
+              href="#"
+              className="hover:border-b-2 border-[#2BD462] text-gray-500 hover:text-black"
+            >
+              Careers
+            </a>
           </li>
         </ul>
       </div>

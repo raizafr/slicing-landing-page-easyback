@@ -1,16 +1,13 @@
 import { ReactSVG } from "react-svg";
 import Online from "../../public/images/icon-online.svg";
-const ItemGroup = () => {
+const ItemGroup = ({ title, description, icon }) => {
   return (
     <div className="w-full space-y-6 px-2 text-center md:text-left">
       <div className="flex justify-center md:justify-start">
-        <ReactSVG src={Online} />
+        <ReactSVG src={icon} />
       </div>
-      <h2 className="font-semibold text-lg">Online Banking</h2>
-      <p className="text-base opacity-70">
-        Our modern web and mobile applications allow you to keep track of your
-        finances wherever you are in tehe world
-      </p>
+      <h2 className="font-semibold text-xl">{title}</h2>
+      <p className="text-base text-gray-500">{description}</p>
     </div>
   );
 };
